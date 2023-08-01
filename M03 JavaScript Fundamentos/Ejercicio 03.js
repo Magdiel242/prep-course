@@ -9,6 +9,7 @@ function sonIguales(x, y) {
          return true
       }
       return false
+      
 }
 
 function tienenMismaLongitud(str1, str2) {
@@ -23,7 +24,7 @@ function tienenMismaLongitud(str1, str2) {
 function menosQueNoventa(num) {
    // Retorna true si el argumento "num" es menor que noventa.
    // De lo contrario, retorna false.
-   // Tu código:  
+   // Tu código: 
    if (num < 90){
       return true
       }
@@ -36,6 +37,7 @@ function mayorQueCincuenta(num) {
    // Tu código:
    if (num > 50) return true
    return false
+
 }
 
 function esPar(num) {
@@ -44,6 +46,7 @@ function esPar(num) {
    // Tu código:
    if (num % 2 === 0) return true
    return false
+
 }
 
 function esImpar(num) {
@@ -52,6 +55,7 @@ function esImpar(num) {
    // Tu código:
    if (num % 2 === 1) return true
    return false
+
 }
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
